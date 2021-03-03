@@ -27,6 +27,11 @@ main section.categories-show {
         display: block;
       }
 
+      header img.sold-out {
+        max-width: 60%;
+        position: absolute; top: 3rem; left: 5rem;
+      }
+
       footer {
         position: absolute;
         bottom: 0;
@@ -67,8 +72,15 @@ main section.categories-show {
 main section.products-show {
 
   .product-detail {
+    position: relative; left: 0; top: 0;
+
     img.main-img {
       max-width: 100%;
+      position: relative; top: 0px; left: 0px;
+    }
+    img.sold-out {
+      max-width: 60%;
+      position: absolute; top: -2.5em; left: .5em;
     }
   }
 }

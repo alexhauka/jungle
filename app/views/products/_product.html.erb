@@ -2,6 +2,9 @@
   <header>
     <%= link_to product do %>
       <%= image_tag product.image.thumb, alt: product.name %>
+      <% if product.quantity == 0 %>
+        <%= image_tag "sold-out.png", class: "sold-out" %>
+      <% end %>
       <h4><%= product.name %></h4>
     <% end %>
   </header>

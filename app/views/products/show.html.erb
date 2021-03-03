@@ -10,6 +10,11 @@
 
       <div class="col-sm-4">
         <%= image_tag @product.image.url, class: 'main-img' %>
+
+        <% if @product.quantity == 0 %>
+          <%= image_tag "sold-out.png", class: "sold-out" %>
+        <% end %>
+
       </div>
 
       <div class="col-sm-8">
