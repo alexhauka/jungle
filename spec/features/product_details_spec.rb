@@ -17,9 +17,9 @@ RSpec.feature "Visitor navigates to product details", type: :feature, js: true d
     end
   end
 
-
+  #TEST SCENARIO
   scenario "They see product details" do
-    # ACT
+
     visit root_path
 
     expect(page).to have_css 'article.product', count: 10
@@ -31,7 +31,4 @@ RSpec.feature "Visitor navigates to product details", type: :feature, js: true d
     save_screenshot
 
   end
-
-
-
 end
