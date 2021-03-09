@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "User can add product to cart", type: :feature, JS: true do
+RSpec.feature "User can add product to cart", type: :feature, js: true do
   
   # SETUP
   before :each do
@@ -28,7 +28,7 @@ RSpec.feature "User can add product to cart", type: :feature, JS: true do
 
     expect(page).to have_content("My Cart (1)")
 
-    # save_screenshot
+    save_screenshot
 
   end
 
