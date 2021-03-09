@@ -1,6 +1,24 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+## At a glance
+
+Jungle is a mini e-commerce application built on Ruby and Rails. Users can sign up, log in, and add or purchase items using Stripe for secure transactions. Behavior-Driven-Development was used with testing being done via Rspec, Capybara, and Poltergeist. 
+
+## Features
+
+- Products are listed on the homepage
+- Users can add/remove/adjust quantity of items from  the Cart
+- Admins can add/edit/remove existing categories or products via the Admin dashboard
+- Items out of stock are marked as 'Sold Out'
+- Encrypted passwords via bcrypt
+
+## Stack
+
+**Front-End:** Ruby, Jquery-Rails, SCSS
+
+**Back-End:** Rails, PSQL
+
+**Testing:** Rspec, Capybara, Poltergeist, Phantom
 
 
 ## Setup
