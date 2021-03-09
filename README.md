@@ -22,14 +22,16 @@ Jungle is a mini e-commerce application built on Ruby and Rails. Users can sign 
 
 ## Screenshots
 
-!["Home Page"](https://github.com/alexhauka/jungle/blob/master/docs/Home%20Page.png?raw=true)*Home Page routes to all products*
-!["About Jungle"](https://github.com/alexhauka/jungle/blob/master/docs/jungle%20About.png?raw=true)*Jungle's About page*
-!["Category"](https://github.com/alexhauka/jungle/blob/master/docs/Category.png?raw=true)*Example of sorting by category*
-!["Sign Up"](https://github.com/alexhauka/jungle/blob/master/docs/Sign%20Up.png?raw=true)*Registration Page*
-!["Cart"](https://github.com/alexhauka/jungle/blob/master/docs/Cart.png?raw=true)*A loaded Cart*
-!["Post Order"](https://github.com/alexhauka/jungle/blob/master/docs/Post%20Order.png?raw=true)*The Confirmed Order page*
-!["Admin Categories"](https://github.com/alexhauka/jungle/blob/master/docs/Admin%20Categories.png?raw=true)*Categories control page via Admin Dashboard*
-!["Testing Code"](https://github.com/alexhauka/jungle/blob/master/docs/rspec-capybara-phantom.png?raw=true)*Rspec/Capybara example spec*
+*Home Page routes to all products*!["Home Page"](https://github.com/alexhauka/jungle/blob/master/docs/Home%20Page.png?raw=true)
+
+*Jungle's About page*!["About Jungle"](https://github.com/alexhauka/jungle/blob/master/docs/jungle%20About.png?raw=true)
+
+*Example of sorting by category*!["Category"](https://github.com/alexhauka/jungle/blob/master/docs/Category.png?raw=true)
+*Registration Page*!["Sign Up"](https://github.com/alexhauka/jungle/blob/master/docs/Sign%20Up.png?raw=true)
+*A loaded Cart*!["Cart"](https://github.com/alexhauka/jungle/blob/master/docs/Cart.png?raw=true)
+*The Confirmed Order page*!["Post Order"](https://github.com/alexhauka/jungle/blob/master/docs/Post%20Order.png?raw=true)
+*Categories control page via Admin Dashboard*!["Admin Categories"](https://github.com/alexhauka/jungle/blob/master/docs/Admin%20Categories.png?raw=true)
+*Rspec/Capybara example spec*!["Testing Code"](https://github.com/alexhauka/jungle/blob/master/docs/rspec-capybara-phantom.png?raw=true)
 
 ## Setup
 
